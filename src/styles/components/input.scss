@@ -1,0 +1,23 @@
+.input {
+  width: 100%;
+  max-width: 296;
+  margin: 8px 0 0;
+  padding: 8px 12px 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-2);
+  background-color: var(--white);
+
+  &:focus {
+    outline: none;
+  }
+
+  &--invalid {
+    border-color: var(--red-2);
+  }
+
+  &__msg-error {
+    color: var(--red-2);
+    font-size: 14px;
+    text-align: left;
+  }
+}
